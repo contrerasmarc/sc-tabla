@@ -7,4 +7,4 @@ My results today, by framework:
 - Using gxtable : Only the header
 - Using sproutcore-table : The header and the last row
 
-You need to a frameworks folder with gxtable and sproutcore-table
+You need to add a frameworks folder with [__gxtable__] and [__sproutcore-table__]
