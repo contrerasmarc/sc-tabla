@@ -35,14 +35,13 @@ For sproutcore-table, i'm using the following controller
 	Tabla.myController2 = SC.ArrayController.create(SC.TableDelegate,
 	/** @scope Tabla.myController.prototype */ {
 	
-	columns: [
-		SC.TableColumn.create({ key: "dateF", label: "Date", width: 80 }),
-		SC.TableColumn.create({ key: "number", label: "Number", width: 70 }),
-		SC.TableColumn.create({ key: "member", label: "Member", width: 150 }),
-		SC.TableColumn.create({ key: "memberName", label: "Real Membre Name", width: 120 }),
-		SC.TableColumn.create({ key: "name", label: "Name", width: 150 })
-	]
-
-});
+		columns: [
+			SC.TableColumn.create({ key: "dateF", label: "Date", width: 80 }),
+			SC.TableColumn.create({ key: "number", label: "Number", width: 70 }),
+			SC.TableColumn.create({ key: "member", label: "Member", width: 150 }),
+			SC.TableColumn.create({ key: "memberName", label: "Real Membre Name", width: 120 }),
+			SC.TableColumn.create({ key: "name", label: "Name", width: 150 })
+		]
+	});
 
 You need to add a "frameworks" folder with [gxtable](https://github.com/nicolasbadia/gxtable) and [sproutcore-table](https://github.com/gestixi/sproutcore-table).
