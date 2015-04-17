@@ -1,11 +1,12 @@
 # Overview
+
 Tests for run a table in [Sproutcore](http://www.github.com/sproutcore/sproutcore)
 
 My results today, by framework:
 - Using gxtable : Only the header
 - Using sproutcore-table : The header and the last row
 
-For gxtable i'm using the controller
+For gxtable, i'm using the following controller:
 
 	Tabla.myController = SC.ArrayController.create(SC.TableUsersDefaultMixin,
 		/** @scope Tabla.myController.prototype */ {
@@ -44,4 +45,4 @@ For sproutcore-table, i'm using the following controller
 
 });
 
-You need to add a "frameworks" folder with [gxtable](https://github.com/nicolasbadia/gxtable) and [sproutcore-table](https://github.com/gestixi/sproutcore-table)
+You need to add a "frameworks" folder with [gxtable](https://github.com/nicolasbadia/gxtable) and [sproutcore-table](https://github.com/gestixi/sproutcore-table).
