@@ -6,3 +6,5 @@ Here my tests to run a table in SproutCore
 My results today, by framework:
 - Using gxtable : Only the header
 - Using sproutcore-table : The header and the last row
+
+You need to a frameworks folder with gxtable and sproutcore-table
